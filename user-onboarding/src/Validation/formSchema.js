@@ -13,6 +13,5 @@ export default yup.object().shape({
         .string()
         .required("Must provide password"),
     termsOfService: yup
-        .boolean()
-        .required("Must agree to Terms of Service"),
+        .boolean(),
 })
